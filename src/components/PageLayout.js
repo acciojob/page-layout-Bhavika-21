@@ -5,7 +5,7 @@ const PageLayout = (props) => {
         <div>
             {props.header}
             {props.footer}
-            {props.footer.children}
+            {props.children}
         </div>
     );
 }
